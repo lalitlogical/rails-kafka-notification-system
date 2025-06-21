@@ -1,0 +1,4 @@
+development:
+  brokers:
+    - localhost:9092
+  group_id: notification_system
