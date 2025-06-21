@@ -7,3 +7,5 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+UserPreference.create!(user_id: 42, preferences: { channels: [ "email", "push" ] })
+UserPreference.create!(user_id: 99, preferences: { channels: [ "in_app" ] })
