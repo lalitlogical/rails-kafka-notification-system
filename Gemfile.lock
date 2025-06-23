@@ -281,7 +281,7 @@ GEM
       digest-crc
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
-    solid_cable (3.0.8)
+    solid_cable (3.0.11)
       actioncable (>= 7.2)
       activejob (>= 7.2)
       activerecord (>= 7.2)
@@ -343,7 +343,7 @@ DEPENDENCIES
   debug
   dotenv
   kamal
-  pg
+  pg (~> 1.1)
   puma (>= 5.0)
   racecar (~> 2.12)
   rails (~> 8.0.2)
