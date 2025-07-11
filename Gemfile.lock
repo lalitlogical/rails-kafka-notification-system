@@ -243,7 +243,7 @@ GEM
       ffi (~> 1.15)
       mini_portile2 (~> 2.6)
       rake (> 12)
-    rdoc (6.14.1)
+    rdoc (6.14.2)
       erb
       psych (>= 4.0.0)
     regexp_parser (2.10.0)
@@ -290,7 +290,7 @@ GEM
       activejob (>= 7.2)
       activerecord (>= 7.2)
       railties (>= 7.2)
-    solid_queue (1.1.5)
+    solid_queue (1.2.0)
       activejob (>= 7.1)
       activerecord (>= 7.1)
       concurrent-ruby (>= 1.3.1)
@@ -343,7 +343,7 @@ DEPENDENCIES
   debug
   dotenv
   kamal
-  pg
+  pg (~> 1.1)
   puma (>= 5.0)
   racecar (~> 2.12)
   rails (~> 8.0.2)
